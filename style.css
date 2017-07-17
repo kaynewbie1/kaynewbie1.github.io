@@ -1,14 +1,15 @@
+body {
+  margin: 10px;
+  font-family: helvetica;
+}
+
 header {
   background-color: #a375ee;
   padding: 5px;
   border: 1px dotted #a375ee;
 }
 
-body {
-  margin: 10px;
-}
-
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,10 +39,26 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #5011ea;
-
+  }
 
 footer {
   background-color: #a375ee;
-  padding: 5px;
-  border: 1px dotted #a375ee;
+  color: white;
+  text-align: center;
+}
+
+section#schedule {
+  display: inline-block;
+  width: 300px;
+  padding: 2px 5px;
+  border: 1px solid #a375ee;
+}
+
+section#services {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  padding: 2px 5px;
+  border: 1px solid #a375ee;
+
 }
