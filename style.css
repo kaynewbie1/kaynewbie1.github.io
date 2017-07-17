@@ -8,6 +8,18 @@ body {
   margin: 10px;
 }
 
+main ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+main {
+
+}
+
 footer {
   background-color: #a375ee;
   padding: 5px;
